@@ -1,0 +1,128 @@
+  loan_defaulters:
+  schema_name: bronze_schema
+  table_name: loan_defaulters
+  file_name: loan_default*.csv
+  columns:
+      - source_column: ID
+        destination_column: id
+        destination_datatype: string
+      - source_column: disbursed_value
+        destination_column: disbursed
+        destination_datatype: string
+      - source_column: asset_cost
+        destination_column: asset
+        destination_datatype: string
+      - source_column: Loan to Value
+        destination_column: loan_to_value
+        destination_datatype: string
+      - source_column: branch_id
+        destination_column: branch_id
+        destination_datatype: string
+      - source_column: supplier_id
+        destination_column: supplier_id
+        destination_datatype: string
+      - source_column: manufacturer_id
+        destination_column: manufacturer_id
+        destination_datatype: string
+      - source_column: pincode
+        destination_column: pincode
+        destination_datatype: string
+      - source_column: DOB
+        destination_column: date_of_birth
+        destination_datatype: string
+      - source_column: Emp_Type
+        destination_column: employment_type
+        destination_datatype: string
+      - source_column: DisbursalDate
+        destination_column: disbursal_date
+        destination_datatype: string
+      - source_column: Region_ID
+        destination_column: region_id
+        destination_datatype: string
+      - source_column: Employee_code_ID
+        destination_column: employee_code_id
+        destination_datatype: string
+      - source_column: MobileNo_Avl_Flag
+        destination_column: mobile_available_flag
+        destination_datatype: string
+      - source_column: id1_flag
+        destination_column: id1_flag
+        destination_datatype: string
+      - source_column: id2_flag
+        destination_column: id2_flag
+        destination_datatype: string
+      - source_column: id3_flag
+        destination_column: id3_flag
+        destination_datatype: string
+      - source_column: id4_flag
+        destination_column: id4_flag
+        destination_datatype: string
+      - source_column: id5_flag
+        destination_column: id5_flag
+        destination_datatype: string
+      - source_column: Bureau_Score
+        destination_column: bureau_score
+        destination_datatype: string
+      - source_column: Score_Category
+        destination_column: score_category
+        destination_datatype: string
+      - source_column: primary_accs
+        destination_column: primary_accounts
+        destination_datatype: string
+      - source_column: active_accs
+        destination_column: active_accounts
+        destination_datatype: string
+      - source_column: overdue_accs
+        destination_column: overdue_accounts
+        destination_datatype: string
+      - source_column: total_balance_outstanding
+        destination_column: total_balance_outstanding
+        destination_datatype: string
+      - source_column: total_sanctioned_amount
+        destination_column: total_sanctioned_amount
+        destination_datatype: string
+      - source_column: total_disbursed_amount
+        destination_column: total_disbursed_amount
+        destination_datatype: string
+      - source_column: secondary_accs
+        destination_column: secondary_accounts
+        destination_datatype: string
+      - source_column: secondary_active_accs
+        destination_column: secondary_active_accounts
+        destination_datatype: string
+      - source_column: secondary_overdue_accs
+        destination_column: secondary_overdue_accounts
+        destination_datatype: string
+      - source_column: secondary_total_balance_outstanding
+        destination_column: secondary_total_balance_outstanding
+        destination_datatype: string
+      - source_column: secondary_total_sanctioned_amount
+        destination_column: secondary_total_sanctioned_amount
+        destination_datatype: string
+      - source_column: secondary_total_disbursed_amount
+        destination_column: secondary_total_disbursed_amount
+        destination_datatype: string
+      - source_column: primary_emi
+        destination_column: primary_emi
+        destination_datatype: string
+      - source_column: seconday_emi
+        destination_column: secondary_emi
+        destination_datatype: string
+      - source_column: loans_6months
+        destination_column: loans_last_6_months
+        destination_datatype: string
+      - source_column: loabs_default_6months
+        destination_column: loans_default_last_6_months
+        destination_datatype: string
+      - source_column: acvg_loan_tenure
+        destination_column: average_loan_tenure
+        destination_datatype: string
+      - source_column: credit_hist_length
+        destination_column: credit_history_length
+        destination_datatype: string
+      - source_column: inquiries
+        destination_column: inquiries
+        destination_datatype: string
+      - source_column: default
+        destination_column: default_flag
+        destination_datatype: string
