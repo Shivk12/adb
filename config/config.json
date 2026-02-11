@@ -2,5 +2,7 @@
 	"file_path":"/Volumes/dltshiv/source/files/",
 	"format":"csv",
 	"header":"true",
-	"delimiter":"|"
+	"delimiter":"|",
+	"yaml_path":"/Workspace/Users/shivec195@gmail.com/adb_local/config/schema_definition/bronze_schema/loan_defaulters.yml",
+	"path":"/Volumes/dltshiv/source/files/loan_defaulters/"
 }
