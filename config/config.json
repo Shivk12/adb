@@ -3,6 +3,6 @@
 	"format":"csv",
 	"header":"true",
 	"delimiter":"|",
-	"yaml_path":"/Workspace/Users/shivec195@gmail.com/adb_local/config/schema_definition/bronze_schema/loan_defaulters.yml",
+	"yaml_path":"/Workspace/Users/shivec195@gmail.com/adb/config/schema_definition/bronze_schema/loan_defaulters.yml",
 	"path":"/Volumes/dltshiv/source/files/loan_defaulters/"
 }
